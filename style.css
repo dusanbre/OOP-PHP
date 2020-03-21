@@ -2,6 +2,7 @@
     width: 250px;
     border: 1px solid gray;
     padding: 10px;
+    background-color: burlywood;
 }
 .title{
     font-size: 20px;
@@ -14,4 +15,26 @@
     font-weight: bold;
     color: brown;
     padding-left: 10px;
+}
+.player{
+    display: inline-block;
+    border: 1px solid gray;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.p-title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p-rank{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
