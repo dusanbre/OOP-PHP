@@ -4,10 +4,12 @@
 require "Pojacalo.php";
 $filename = 'pojacala.txt';
 $podaci = file($filename);
+echo "<div class='main'>";
 foreach($podaci as $podatak){
     $pojacalo = Pojacalo::parse($podatak);
     $pojacalo->render();
 }
+echo "</div>";
 ?>
 <div class="container cnt">
     <div class="row row-button">

@@ -1,14 +1,23 @@
 .render-row {
-  border: 1px solid red;
   padding: 2px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
   margin-top: 10px;
 }
-
+.main {
+  background-color: whitesmoke;
+  padding: 40px 10px;
+}
 .model,
-.manufacturer {
-  border: 1px solid red;
+.manufacturer,
+.price {
+  border: none;
+  background-color: white;
+  display: flex;
+  max-width: 30%;
+  margin-left: 35px;
+  box-shadow: 1px 1px 22px rgba(58, 58, 58, 0.061);
+  border-radius: 5px;
 }
 .form {
   padding: 10px;
@@ -20,6 +29,9 @@
 }
 .cnt {
   margin-top: 10px;
+}
+.row-button {
+  margin-left: 20px;
 }
 .unos-btn {
   padding: 10px;
