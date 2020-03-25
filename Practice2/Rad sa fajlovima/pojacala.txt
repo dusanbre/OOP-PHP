@@ -1,0 +1,5 @@
+marshall,jcm 900,1500
+fender,bassbreaker 007,500
+laney,neki tamo,1000
+yamaha,super pojacalo,400
+marshall,jcm 800,1400
