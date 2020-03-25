@@ -2,12 +2,15 @@
 <link rel="stylesheet" href="./css/main.css">
 <?php
 require "Pojacalo.php";
-
 $filename = 'pojacala.txt';
-
 $podaci = file($filename);
-
 foreach($podaci as $podatak){
     $pojacalo = Pojacalo::parse($podatak);
     $pojacalo->render();
 }
+?>
+<div class="container cnt">
+    <div class="row row-button">
+       <button class="btn unos-btn" onclick="window.location.href='./unos.php'">Unos Podataka</button>
+    </div>
+</div>

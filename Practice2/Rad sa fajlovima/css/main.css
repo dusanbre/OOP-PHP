@@ -3,8 +3,52 @@
   padding: 2px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
+  margin-top: 10px;
 }
+
 .model,
 .manufacturer {
   border: 1px solid red;
+}
+.form {
+  padding: 10px;
+  margin-top: 50px;
+  background-color: whitesmoke;
+}
+.forma-proizvodjac {
+  padding: 10px;
+}
+.cnt {
+  margin-top: 10px;
+}
+.unos-btn {
+  padding: 10px;
+  background-color: tomato;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.lista-btn {
+  padding: 10px 30px;
+  margin-left: 20px;
+}
+.input {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  box-shadow: 1px 1px 22px rgba(58, 58, 58, 0.061);
+}
+.naslov h3 {
+  margin-top: 15px;
+  text-align: right;
+}
+.forma-submit {
+  padding: 10px 40px;
+  margin-left: 58%;
+  background-color: tomato;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }

@@ -1,5 +1,5 @@
-marshall,jcm 900,1500
-fender,bassbreaker 007,500
-laney,neki tamo,1000
-yamaha,super pojacalo,400
-marshall,jcm 800,1400
+Yamaha,JVC 300,240
+Marshall,Mars,1000
+Krang,VC1000,500
+JVC,TV 25,2400
+Aparat,Model 230,650

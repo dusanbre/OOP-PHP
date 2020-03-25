@@ -15,8 +15,9 @@ class Pojacalo{
     public function render(){
         echo "<div class='container render'>";
         echo "<div class='row render-row'>";
-        echo "<div class='col-md-6 manufacturer'>{$this->manufacturer}</div>";
-        echo "<div class='col-md-6 model'>{$this->model}</div>";
+        echo "<div class='col-md-4 manufacturer'>{$this->manufacturer}</div>";
+        echo "<div class='col-md-4 model'>{$this->model}</div>";
+        echo "<div class='col-md-4 model'>{$this->price}$</div>";
         echo "</div>";
         echo "</div>";
     }
